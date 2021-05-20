@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <title>Cursos</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#" target="_blank">Inicio</a> </li>
+            <li><a href="#">Conócenos</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+
+    </nav>
+    <div class="section-content">
+        <div class="slider">
+            <scroll-container class="slider-container">
+                <scroll-page id="videoU" class="slider-slide">
+                    <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/tL1fCW2BqLY"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </scroll-page>
+                <scroll-page id="videoD" class="slider-slide">
+                    <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/Q7vb6PrTpAI"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </scroll-page>
+                <scroll-page id="videoT" class="slider-slide">
+                    <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/cbSeta2tFMk"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </scroll-page>
+            </scroll-container>
+            <div class="slider-bullet-list">
+                <a href="#videoU" class="slider-bullet"></a>
+                <a href="#videoD" class="slider-bullet"></a>
+                <a href="#videoT" class="slider-bullet"></a>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <div class="container">
+            <div class="pelic">
+                <div class="item">
+                    <img src="./images/Raya.webp" alt="">
+                </div>
+                <h3>Raya el ultimo dragón</h3>
+            </div>
+
+            <div class="pelic">
+                <div class="item">
+                    <img src="./images/Harry.jpg" alt="">
+                </div>
+                <h3>Harry Potter</h3>
+            </div>
+
+            <div class="pelic">
+                <div class="item">
+                    <img src="./images/Mulan.jpg" alt="">
+                </div>
+                <h3>Harry Potter</h3>
+            </div>
+
+            <div class="pelic">
+                <div class="item">
+                    <img src="./images/Blood.jpg" alt="">
+                </div>
+                <h3>Harry Potter</h3>
+            </div>
+        </div>
+
+    <div class="contenedor-Formulario">
+        <div class="content">
+           
+            <form action="" class="form" id="form">
+                <h2>Se parte de nuestra comunidad</h2>
+                <input id="nombre" type="text" placeholder="Nombre:" required >
+                <input id="correo" type="Email" name="name" placeholder="Correo electrónico:" required>
+                <select name="genero" id="genero" value="Genero">
+                    <option value="0">Género</option>
+                    <option value="F">Femenino</option>
+                    <option value="M">Maculino</option>
+                </select>
+                <label for="">Mensaje:</label>
+                <textarea id="descripcion" cols="30" rows="10" ></textarea>
+                <input type="submit" value="Suscribirme">
+            </form>
+        </div>
+    </div>
+    </main>
+
+    <footer>
+        <div class="containerF">
+            <div class="contFoot">
+                <div class="text">
+                    <h1>Acerca del proyecto</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti in ex, voluptas alias dolor
+                        suscipit pariatur consequuntur maxime tempore dolores consequatur vitae quos, earum excepturi
+                        porro accusamus voluptates deleniti expedita.</p>
+                </div>
+            </div>
+
+            <div class="contFoot">
+                <div class="">
+                    <h1>Otros Datos</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At similique sapiente, atque, error
+                        aspernatur libero sed dolor est fuga voluptates nam sint provident iusto iste sequi. Mollitia
+                        rem quae harum.</p>
+                </div>
+            </div>
+
+            <div class="contFoot">
+                <div class="">
+                    <h1>Integrantes</h1>
+                    <ul>
+                        <li>Integrante #1</li>
+                        <li>Integrante #2</li>
+                        <li>Integrante #3</li>
+                        <li>Integrante #4</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="Aliados">
+            <img src="./images/Logo_fit.png" alt="" id="Logo">
+            <img src="./images/Logo_fit.png" alt="" id="Logo">
+            <img src="./images/Logo_fit.png" alt="" id="Logo">
+        </div>
+    </footer>
+
+    <script src="./scripts/index.js"></script>
+</body>
+
+</html>

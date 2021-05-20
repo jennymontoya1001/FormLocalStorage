@@ -1,0 +1,197 @@
+:root{
+--varColor:#3A3539;
+--varBack:#eeecee;
+--varLetra:white;
+}
+
+body{
+    
+    margin: 0;
+    background-color: #080F28;
+}
+
+.slider-container{
+    display: block;
+    position: relative;
+    top:50px;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+    height: 80vh; 
+    clear: both;
+}
+.video{
+    display: inline-block;
+    aspect-ratio: 16/9;
+    height: 90%;
+    width: 100vw;
+}
+.slider-bullet-list{
+    text-align: center;
+    margin-block-start: 10px;
+}
+.slider-bullet{
+    display: inline-block;
+    inline-size: 15px;
+    block-size: 15px;
+    background: white;
+    border-radius: 50%;
+}
+
+
+/*Menu*/
+nav{
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    background-color: #1a2c49;
+}
+
+nav ul{
+    text-align: left;
+    list-style: none;
+    margin-top: 0px;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+    transition: all .2s ease;
+    
+}
+
+nav ul li:hover{
+    transform: scale(1.1);
+}
+
+nav ul li:hover a{
+    border-bottom: 1px solid #fff;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color:#080F28;
+    width: 80%;
+    margin: 5% auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.pelic{
+    width: 210px;
+    height: 400px; 
+    color: white; 
+    margin-left: 5px;
+    text-align: center;
+    align-content: space-around;
+    margin: 10px;
+    border-radius: 8%;
+}
+
+.item img{
+    width: 200px;
+    height: 300px;
+    border-radius: 2%;
+    border: 2px solid #8DA0BC;
+}
+
+.pelic h2 h3{
+margin: 0;
+}
+
+
+  footer{
+    margin-left: 2.5%;
+    width: 100%;
+  }
+
+  .containerF{
+        display:inline-flex;
+        flex-direction: row;
+        background-color:#1a2c49;
+        width: 95%;
+        margin: 5% auto;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      
+  }
+  .text{
+    text-align:justify ;
+  }
+
+  .contFoot{
+    width: 280px;
+    height: 200px; 
+    color: white; 
+    text-align: center;
+    align-content: space-around;
+    margin: 5%;
+}
+
+.Aliados{
+    width: 80%;
+    margin: 0 30%;
+    align-content: center;
+}
+#Logo{
+    width: 80px;
+    margin: 0 auto;
+    justify-items: center;
+  }
+
+  .contenedor-Formulario{
+      width: 100%;
+      
+  }
+  .content{
+    text-align: center;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .form h2{
+    font-size: 24px;
+    color: var(--varLetra);
+  }
+ 
+
+  .form input, select{
+      inline-size: 100%;
+      border:1px solid var(--varColor) ;
+      box-sizing: border-box;
+      color:white;
+      background-color:#251F24 ;
+      border-radius: 8px;
+      padding-inline: 16px;
+      padding-block: 12px;
+      color:var(--varLetra);
+      font-size: 16px;
+      margin-block-end:24px
+  }
+
+  .form input[type="submit"]{
+    background: #157EFB;
+    border: none;
+  }
+
+  .form label{
+      color: var(--varLetra);
+      font-size: 18px;
+  }
+  textarea{
+    inline-size: 100%;
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 10px;
+
+  }
